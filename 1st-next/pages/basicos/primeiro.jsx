@@ -1,3 +1,10 @@
+import Titulo from "../../components/Titulo"
+
 export default function primeiro() {
-  return "Primeiro componente"
+  return (
+    <>
+      <Titulo/>
+      Primeiro componente
+    </>
+  )
 }
