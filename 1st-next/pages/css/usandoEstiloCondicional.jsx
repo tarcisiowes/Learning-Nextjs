@@ -4,7 +4,7 @@ export default function usandoEstiloCondicional() {
   
   return (
     <div>
-      <EstiloCondicional numero={5} />
+      <EstiloCondicional numero={5} color="#000" direita />
     </div>
   )
 }
