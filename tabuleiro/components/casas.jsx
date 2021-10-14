@@ -1,7 +1,9 @@
-export default function casas() {
+import styles from '../styles/casas.module.css'
+
+export default function Casas(props) {
 
   return (
-    <div>
+    <div className={styles.casas}>
       
     </div>
   )
