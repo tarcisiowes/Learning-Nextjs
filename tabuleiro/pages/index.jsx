@@ -1,11 +1,11 @@
 import Linha from '../components/linha'
+import Tabuleiro from '../components/Tabuleiro'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Linha />
-      <Linha preta />
+      <Tabuleiro/>
     </div>
   )
 }
