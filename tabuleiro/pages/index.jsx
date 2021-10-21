@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Linha />
+      <Linha preta />
     </div>
   )
 }
